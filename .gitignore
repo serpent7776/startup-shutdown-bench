@@ -1,0 +1,4 @@
+.mypy_cache/
+empty
+*.csv
+*.json
