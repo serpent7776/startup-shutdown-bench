@@ -5,6 +5,7 @@ touch empty
 hyperfine -N --warmup 1 --export-csv 1.csv --export-json 1.json \
 	"lua -e ''" \
 	"luajit -e ''" \
+	"dash -c ''" \
 	"sh -c ''" \
 	"bash -c ''" \
 	"zsh -c ''" \
