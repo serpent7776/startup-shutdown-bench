@@ -30,4 +30,6 @@ hyperfine -N --warmup 1 --export-csv 1.csv --export-json 1.json \
 	"poly --script empty" \
 	"R -q -e '0'" \
 	"bqn -e '0'" \
+	"bb -e ''" \
+	"clj -e ''" \
 
