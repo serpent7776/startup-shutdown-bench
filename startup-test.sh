@@ -17,6 +17,8 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"python -c ''" \
 	"php -r ''" \
 	"node -e ''" \
+	"deno eval ''" \
+	"bun exec ''" \
 	"js60 -e ''" \
 	"js78 -e ''" \
 	"guile -c ''" \
