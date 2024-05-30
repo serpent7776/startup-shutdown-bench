@@ -2,7 +2,7 @@
 
 touch empty
 
-hyperfine -N --warmup 1 --export-csv 1.csv --export-json 1.json \
+hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"lua -e ''" \
 	"luajit -e ''" \
 	"dash -c ''" \
