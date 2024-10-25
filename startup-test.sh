@@ -11,6 +11,7 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"zsh -c ''" \
 	"fish -c ''" \
 	"tclsh empty" \
+	"jq . empty" \
 	"awk 'BEGIN{}'" \
 	"perl -e ''" \
 	"ruby -e ''" \
