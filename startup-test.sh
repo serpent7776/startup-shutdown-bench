@@ -32,6 +32,7 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"gprolog --init-goal halt" \
 	"scryer-prolog -g halt." \
 	"poly --script empty" \
+	"ghc -c empty" \
 	"R -q -e '0'" \
 	"bqn -e '0'" \
 	"ngnk empty" \

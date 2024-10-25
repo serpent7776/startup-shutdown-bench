@@ -37,8 +37,8 @@ medians = [b["median"] for b in results]
 sorted_indices = sorted(range(len(labels)), key=lambda k: medians[k])
 sorted_labels = [labels[i] for i in sorted_indices]
 sorted_times = [times[i] for i in sorted_indices]
-times = sorted_times[:-8]
-labels = sorted_labels[:-8]
+times = sorted_times[:-9]
+labels = sorted_labels[:-9]
 
 plt.figure(figsize=(10, 6), constrained_layout=True)
 boxplot = plt.boxplot(times, vert=True, patch_artist=True)
