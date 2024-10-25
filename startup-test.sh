@@ -35,4 +35,5 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"ngnk empty" \
 	"bb -e ''" \
 	"clj -e ''" \
+	"amm -c ''" \
 
