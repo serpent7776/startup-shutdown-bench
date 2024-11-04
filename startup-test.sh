@@ -29,6 +29,7 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"ngnk empty" \
 	"guile -c ''" \
 	"chicken-csi -p ''" \
+	"sbcl --script empty" \
 	"ocaml empty" \
 	"poly --script empty" \
 	"ghc -e ':script empty'" \
