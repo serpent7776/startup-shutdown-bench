@@ -31,7 +31,7 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"chicken-csi -p ''" \
 	"ocaml empty" \
 	"poly --script empty" \
-	"ghc -c empty" \
+	"ghc -e ':script empty'" \
 	"swipl -q -c empty" \
 	"gprolog --init-goal halt" \
 	"scryer-prolog -g halt." \
