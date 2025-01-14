@@ -6,6 +6,6 @@ You can read a [full blog post](https://dev.to/serpent7776/measuring-startup-and
 
 ## Updated Results
 
-![Full plot](full2.png)
+![Full plot](full.png)
 
-![Zoomed plot](zoom2.png)
+![Zoomed plot](zoom.png)
