@@ -31,6 +31,7 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"chicken-csi -p ''" \
 	"racket -e ''" \
 	"sbcl --script empty" \
+	"clisp -q -x ''" \
 	"ocaml empty" \
 	"poly --script empty" \
 	"ghc -e ':script empty'" \
