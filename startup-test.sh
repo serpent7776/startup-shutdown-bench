@@ -41,5 +41,7 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"erl -eval 'halt()'" \
 	"clj -e ''" \
 	"bb -e ''" \
-	"amm -c ''" \
+
+	# Disabled, because way too slow
+	# "amm -c ''" \
 
