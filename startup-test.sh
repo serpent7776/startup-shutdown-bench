@@ -32,7 +32,7 @@ hyperfine -N --warmup 5 --export-csv 1.csv --export-json 1.json \
 	"racket -e ''" \
 	"sbcl --script empty" \
 	"clisp -q -x ''" \
-	"ocaml empty" \
+	"ocaml ./empty" \
 	"poly --script empty" \
 	"ghc -e ':script empty'" \
 	"swipl -q -c empty" \
